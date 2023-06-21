@@ -1,5 +1,15 @@
+binding.pry
+
 def reverse_string(str)
-  # type your code in here
+    i=-1
+    array=[]
+  while i>str.length*-1
+    array << str[i]
+    i-=1
+  end
+  require pry
+  output=array.join("")
+
 end
 
 if __FILE__ == $PROGRAM_NAME
